@@ -6,7 +6,6 @@ const main = async () => {
     try {
         await app.listen(4000)
         console.log("server works on port 4000")
-        // console.log("database connected")
     } catch (error) {
         console.log(error)
     }
